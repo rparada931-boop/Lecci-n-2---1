@@ -1,0 +1,18 @@
+/* Ejercicio 2: Fondo celeste para toda la página */
+body {
+    background-color: lightblue;
+}
+
+/* Ejercicio 3: Títulos en color rojo */
+h1, h2 {
+    color: red;
+}
+
+/* Ejercicio 4: Ajustar imagen a 400x300, centrarla y margen automático */
+img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
