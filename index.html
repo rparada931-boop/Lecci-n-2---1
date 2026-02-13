@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
     <title>Mi Proyecto de Tecnología</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
-    </head>
+</head>
 <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Andres - Especialista</a>
+            <div class="d-flex">
+                <a class="nav-link text-white me-3" href="#">Inicio</a>
+                <a class="nav-link text-white" href="#">Contacto</a>
+            </div>
+        </div>
+    </nav>
 
-    <header>
-        <h1>Electromecanica y Programación</h1>
-    </header>
+    <div class="container mt-4">
+        
+        <section class="p-5 mb-4 bg-light rounded-3 border">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Reparación con Desarrollo Web</h1>
+                <p class="col-md-8 fs-4">Combinando años de experiencia en hardware con la potencia del código moderno.</p>
+            </div>
+        </section>
 
-    <section>
-        <article>
-            <h2>Especialista en Hardware y Software</h2>
-            <p>En este proyecto combino mi experiencia en reparación con el desarrollo web.</p>
-            
-            <img src="assets/img/Electromecanica.JPG" alt="Imagen de herramientas de tecnología">
-            
-            <ul>
-                <li>Electromecanica</li>
-                <li>Desarrollo en Python</li>
-                <li>Diseño Web Semántico</li>
-            </ul>
-        </article>
-    </section>
+        <header>
+            <h1 class="text-danger">Electromecanica y Programación</h1>
+        </header>
 
-    <footer>
-        <p>Contacto: Andres - 2026</p>
-    </footer>
+        <section>
+            <article>
+                <h2 class="text-danger">Especialista en Hardware y Software</h2>
+                <p>En este proyecto combino mi experiencia en reparación con el desarrollo web.</p>
+                
+                <div class="text-center">
+                    <img src="assets/img/Electromecanica.JPG" class="img-fluid rounded" alt="Herramientas" style="width: 400px; height: 300px;">
+                    
+                    <div class="mt-3">
+                        <button class="btn btn-primary">Ver Servicios</button>
+                        <div class="alert alert-success mt-3" role="alert">
+                            ¡Página actualizada con Bootstrap con éxito!
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

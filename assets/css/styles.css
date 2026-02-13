@@ -1,18 +1,14 @@
-/* Ejercicio 2: Fondo celeste para toda la página */
+/* 5a) Fondo claro similar a lightblue */
 body {
-    background-color: lightblue;
+    background-color: #e3f2fd; /* Un tono lightblue oficial de Bootstrap */
 }
 
-/* Ejercicio 3: Títulos en color rojo */
+/* 5b) Títulos en rojo (se puede hacer por clase en HTML o aquí) */
 h1, h2 {
-    color: red;
+    color: red !important;
 }
 
-/* Ejercicio 4: Ajustar imagen a 400x300, centrarla y margen automático */
+/* 5c) Asegurar el tamaño de la imagen si el aspecto original difiere */
 img {
-    width: 400px;
-    height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    object-fit: cover; /* Nota breve: se usa para no deformar la imagen al forzar 400x300 */
 }
